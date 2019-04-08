@@ -2,7 +2,7 @@
  * @Author: lovewcc
  * @Date:   2019-04-09T00:00:23+08:00
  * @Last modified by:   lovewcc
- * @Last modified time: 2019-04-09T00:28:13+08:00
+ * @Last modified time: 2019-04-09T00:41:01+08:00
  */
 
 // import React from "react";
@@ -21,5 +21,5 @@ let vertualDom = createElement("ul", { class: "list" }, [
 ]);
 
 const el = render(vertualDom);
-
+console.log(el);
 console.log(vertualDom);
